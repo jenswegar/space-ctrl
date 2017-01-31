@@ -1,0 +1,27 @@
+{
+  "name": "fi.wegar.space-ctrl",
+  "version": "0.1.0",
+  "description": "Nodejs App for controlling Philips Hue lights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenswegar/space-ctrl.git"
+  },
+  "keywords": [
+    "hue",
+    "rpi"
+  ],
+  "author": "Jens Wegar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenswegar/space-ctrl/issues"
+  },
+  "homepage": "https://github.com/jenswegar/space-ctrl#readme",
+  "dependencies": {
+    "node-hue-api": "^2.4.1",
+    "rpio": "^0.9.15"
+  }
+}
