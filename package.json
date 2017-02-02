@@ -4,6 +4,7 @@
   "description": "Nodejs App for controlling Philips Hue lights",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,12 @@
   },
   "homepage": "https://github.com/jenswegar/space-ctrl#readme",
   "dependencies": {
+    "bunyan": "^1.8.5",
+    "dotenv": "^4.0.0",
     "node-hue-api": "^2.4.1",
     "rpio": "^0.9.15"
+  },
+  "devDependencies": {
+    "mock-fs": "^3.12.1"
   }
 }
