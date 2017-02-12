@@ -48,7 +48,6 @@ let displayError = function(err){
 
 hue.nupnpSearch().then(displayBridges).done();
 
-
 if(process.env.NODE_ENV && process.env.NODE_ENV === 'development'){
     // for development, fake the file system
     let mockFs = require('mock-fs');
@@ -57,8 +56,6 @@ if(process.env.NODE_ENV && process.env.NODE_ENV === 'development'){
         '/proc/cpuinfo' : ''    // need output from rpi board to put here
     });
 }
-
-
 
 let TouchButton = require("./src/io/TouchButton");
 let ToggleSceneCommand = require("./src/hue/ToggleSceneCommand");

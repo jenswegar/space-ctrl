@@ -9,7 +9,6 @@ class TouchButton {
 	get state() { return this._state; }
 	get command() { return this._command; }
 	
-
     constructor(options){
         console.log(options);
         
